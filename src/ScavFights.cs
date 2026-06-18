@@ -5,6 +5,7 @@ global using System.Collections.Generic;
 global using System.Reflection;
 global using BepInEx;
 global using MoreSlugcats;
+global using Watcher;
 global using Mono.Cecil.Cil;
 global using MonoMod.Cil;
 global using UnityEngine;
@@ -32,7 +33,7 @@ namespace ScavFights
     {
         public const string MOD_ID = "iwantbread.scavfights";
         public const string MOD_NAME = "Scavenger Fight Club";
-        public const string MOD_VER = "1.0";
+        public const string MOD_VER = "1.1";
         public static new ManualLogSource Logger { get; private set; }
         public static ScavFightsRemix remix;
         private void OnEnable()
@@ -63,5 +64,7 @@ namespace ScavFights
                 throw;
             }
         }
+
+        public static string[] ScavengerTypes = ["Scavenger", "Scrounger"];    
     }
 }

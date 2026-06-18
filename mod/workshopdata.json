@@ -1,0 +1,17 @@
+{
+  "Title": "Scavenger Fight Club",
+  "Description": "LETS GET READY TO RUMMBBBBLLLLLEEEEEEEEEEEEEEE!!!!!!!!!!!!",
+  "ID": "iwantbread.scavfights",
+  "Version": "1.1",
+  "TargetGameVersion": "v1.10",
+  "Requirements": "",
+  "RequirementNames": "",
+  "Authors": "iwantbread",
+  "Visibility": "Public",
+  "Tags": [
+    "Creatures"
+  ],
+  "WorkshopID": 3369440202,
+  "UploadFilesOnly": true,
+  "UploadThumbnail": false
+}
